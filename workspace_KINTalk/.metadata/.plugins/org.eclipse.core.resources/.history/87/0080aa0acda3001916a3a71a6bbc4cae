@@ -1,0 +1,14 @@
+package util;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class DBConnectionMgr {
+	public static final String _DRIVER   = "oracle.jdbc.driver.OracleDriver";
+	public static final String _URL	 	 = "jdbc:oracle:thin:@192.168.0.22:1521:orcl11";//서버참조
+	public static final String _USER 	 = "scott";//서버참조
+	public static final String _PW		 = "tiger";//서버참조
+}

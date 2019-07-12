@@ -1,0 +1,29 @@
+package KINTalk;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+
+public class Login extends JFrame implements ActionListener{
+	//선언부
+
+	//생성자
+	
+	//화면처리부
+	private void initDisplay() {
+		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+		this.setSize(250,445);
+		this.setVisible(true);
+		this.setTitle("KINTALK");
+		this.setLocation(700, 250);
+	}//end of initDisplay();
+	//메인메소드
+	public static void main(String[] args) {
+		new Login().initDisplay();
+	}
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		
+	}
+}
